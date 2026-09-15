@@ -4,11 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>RONSO LLC</title>
-<meta name="description" content="RONSO LLC is an independent company in Miami, Florida. We build and operate consumer software and direct-to-consumer commerce: mobile applications, online storefronts, limited-run physical releases, and event ticketing.">
+<meta name="description" content="RONSO LLC is an independent company in Miami, Florida. We build and operate consumer software and direct-to-consumer commerce: mobile applications, online storefronts, limited-run physical goods, and event ticketing.">
 <meta property="og:title" content="RONSO LLC">
 <meta property="og:description" content="Independent company in Miami, Florida. Consumer software and direct-to-consumer commerce.">
 <meta property="og:type" content="website">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2316181d'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='34' fill='%23f7f7f5' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E">
+<meta property="og:url" content="https://southeasterngroup28-blip.github.io/">
+<link rel="canonical" href="https://southeasterngroup28-blip.github.io/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='12'%20fill='%2316181d'/%3E%3Ctext%20x='32'%20y='44'%20font-family='Georgia,serif'%20font-size='34'%20fill='%23f7f7f5'%20text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap">
@@ -18,7 +20,7 @@
     --panel:#ffffff;
     --ink:#16181d;
     --ink-2:#4c5058;
-    --ink-3:#7d828c;
+    --ink-3:#676c76;
     --rule:#e3e3df;
     --accent:#274357;
   }
@@ -58,6 +60,8 @@
     font-size:12px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;
     color:var(--accent);margin:0 0 26px;
   }
+  h2.label{margin-top:0}
+  @media print{.mono{background:none;color:var(--ink);border:1.5px solid var(--ink)}}
   .cols{display:grid;grid-template-columns:repeat(3,1fr);gap:36px}
   @media (max-width:640px){.cols{grid-template-columns:1fr}}
   .cols h3{margin:0 0 8px;font-size:16.5px;font-weight:600}
@@ -75,6 +79,8 @@
   .facts a:hover{border-bottom-color:var(--accent)}
 
   footer{padding:40px 0 64px;color:var(--ink-3);font-size:13.5px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+  footer a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid var(--rule)}
+  footer a:hover{border-bottom-color:var(--ink-2)}
 </style>
 </head>
 <body>
@@ -89,11 +95,11 @@
 
   <div class="hero">
     <h1>Consumer software and direct&#8209;to&#8209;consumer commerce, built and operated in&#8209;house.</h1>
-    <p>RONSO LLC is an independent company based in Miami, Florida. We design, build, and run our own digital products end to end, from the software itself to the storefronts, payments, and fulfillment behind it.</p>
+    <p>RONSO LLC is an independent company based in Miami, Florida. We design, build, and run our own products end to end, from the software itself to the storefronts, checkout, and fulfillment behind it.</p>
   </div>
 
   <section>
-    <p class="label">What we do</p>
+    <h2 class="label">What we do</h2>
     <div class="cols">
       <div>
         <h3>Software</h3>
@@ -101,7 +107,7 @@
       </div>
       <div>
         <h3>Commerce</h3>
-        <p>Online storefronts and limited-run physical releases, sold direct to the customer with in-house fulfillment.</p>
+        <p>Online storefronts and limited-run physical goods, sold directly to the customer with in-house fulfillment.</p>
       </div>
       <div>
         <h3>Events</h3>
@@ -111,21 +117,25 @@
   </section>
 
   <section class="about">
-    <p class="label">About</p>
-    <p>RONSO operates on a simple rule: <strong>own the whole thing.</strong> We keep design, engineering, sales, and customer relationships under one roof instead of assembling products from rented parts.</p>
+    <h2 class="label">About</h2>
+    <p>RONSO operates on a simple rule: <strong>keep everything in-house.</strong> Design, engineering, sales, and customer relationships stay under one roof instead of assembling products from rented parts.</p>
     <p>The company is independent and privately held. We build a small number of products and run them for the long term.</p>
   </section>
 
   <section>
-    <p class="label">Company</p>
+    <h2 class="label">Company</h2>
     <dl class="facts">
       <div>
         <dt>Legal name</dt>
         <dd>RONSO LLC</dd>
       </div>
       <div>
-        <dt>Structure</dt>
-        <dd>Independent, privately held</dd>
+        <dt>Entity type</dt>
+        <dd>Limited liability company, Florida</dd>
+      </div>
+      <div>
+        <dt>Founded</dt>
+        <dd>2026 &middot; Independent, privately held</dd>
       </div>
       <div>
         <dt>Location</dt>
@@ -140,7 +150,7 @@
 
   <footer>
     <div>&copy; 2026 RONSO LLC. All rights reserved.</div>
-    <div>Miami, Florida</div>
+    <div><a href="privacy.html">Privacy</a> &nbsp;&middot;&nbsp; <a href="terms.html">Terms</a> &nbsp;&middot;&nbsp; Miami, Florida</div>
   </footer>
 
 </div>
